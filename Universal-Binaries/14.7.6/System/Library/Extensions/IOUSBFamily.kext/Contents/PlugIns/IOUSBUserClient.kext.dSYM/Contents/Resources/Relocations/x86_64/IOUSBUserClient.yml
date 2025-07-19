@@ -1,0 +1,31 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/AppleInternal/Library/BuildRoots/c061c7d3-2106-11f0-aef6-66ed306edcf0/Library/Caches/com.apple.xbs/Binaries/IOUSBFamily_kexts/install/TempContent/Root/System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBUserClient.kext/Contents/MacOS/IOUSBUserClient'
+relocations:
+  - { offsetInCU: 0x37, offset: 0x37, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x0, symBinAddr: 0x1988, symSize: 0x0 }
+  - { offsetInCU: 0x1E3, offset: 0x1E3, size: 0x8, addend: 0x0, symName: __realmain, symObjAddr: 0x2DD8, symBinAddr: 0x1A50, symSize: 0x0 }
+  - { offsetInCU: 0x1F8, offset: 0x1F8, size: 0x8, addend: 0x0, symName: __antimain, symObjAddr: 0x2DE0, symBinAddr: 0x1A58, symSize: 0x0 }
+  - { offsetInCU: 0x20D, offset: 0x20D, size: 0x8, addend: 0x0, symName: __kext_apple_cc, symObjAddr: 0xC4, symBinAddr: 0x1A4C, symSize: 0x0 }
+  - { offsetInCU: 0x2A, offset: 0x240, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit9MetaClassC1Ev, symObjAddr: 0x0, symBinAddr: 0xD40, symSize: 0x32 }
+  - { offsetInCU: 0x3D, offset: 0x253, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit10gMetaClassE, symObjAddr: 0x25008, symBinAddr: 0x1A60, symSize: 0x0 }
+  - { offsetInCU: 0xB44C, offset: 0xB662, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit9metaClassE, symObjAddr: 0x220, symBinAddr: 0x1018, symSize: 0x0 }
+  - { offsetInCU: 0xB45F, offset: 0xB675, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit10superClassE, symObjAddr: 0x228, symBinAddr: 0x1020, symSize: 0x0 }
+  - { offsetInCU: 0xB478, offset: 0xB68E, size: 0x8, addend: 0x0, symName: __ZL23IOUSBUserClientInit_ktv, symObjAddr: 0xBD0, symBinAddr: 0x2000, symSize: 0x0 }
+  - { offsetInCU: 0xB5AD, offset: 0xB7C3, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit9MetaClassC1Ev, symObjAddr: 0x0, symBinAddr: 0xD40, symSize: 0x32 }
+  - { offsetInCU: 0xB606, offset: 0xB81C, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit9MetaClassD1Ev, symObjAddr: 0x32, symBinAddr: 0xD72, symSize: 0xA }
+  - { offsetInCU: 0xB641, offset: 0xB857, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitC2EPK11OSMetaClass, symObjAddr: 0x3C, symBinAddr: 0xD7C, symSize: 0x20 }
+  - { offsetInCU: 0xB695, offset: 0xB8AB, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitC1EPK11OSMetaClass, symObjAddr: 0x5C, symBinAddr: 0xD9C, symSize: 0x20 }
+  - { offsetInCU: 0xB6F6, offset: 0xB90C, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitD2Ev, symObjAddr: 0x7C, symBinAddr: 0xDBC, symSize: 0xA }
+  - { offsetInCU: 0xB72F, offset: 0xB945, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitD1Ev, symObjAddr: 0x86, symBinAddr: 0xDC6, symSize: 0xA }
+  - { offsetInCU: 0xB7A3, offset: 0xB9B9, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitD0Ev, symObjAddr: 0x90, symBinAddr: 0xDD0, symSize: 0x28 }
+  - { offsetInCU: 0xB86F, offset: 0xBA85, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitdlEPvm, symObjAddr: 0xB8, symBinAddr: 0xDF8, symSize: 0x18 }
+  - { offsetInCU: 0xB8B1, offset: 0xBAC7, size: 0x8, addend: 0x0, symName: __ZNK19IOUSBUserClientInit12getMetaClassEv, symObjAddr: 0xD0, symBinAddr: 0xE10, symSize: 0xE }
+  - { offsetInCU: 0xB8D4, offset: 0xBAEA, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit9MetaClassC2Ev, symObjAddr: 0xDE, symBinAddr: 0xE1E, symSize: 0x32 }
+  - { offsetInCU: 0xB93D, offset: 0xBB53, size: 0x8, addend: 0x0, symName: __ZNK19IOUSBUserClientInit9MetaClass5allocEv, symObjAddr: 0x110, symBinAddr: 0xE50, symSize: 0x48 }
+  - { offsetInCU: 0xB9E0, offset: 0xBBF6, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitnwEm, symObjAddr: 0x158, symBinAddr: 0xE98, symSize: 0x14 }
+  - { offsetInCU: 0xBA12, offset: 0xBC28, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitC1Ev, symObjAddr: 0x16C, symBinAddr: 0xEAC, symSize: 0x30 }
+  - { offsetInCU: 0xBA51, offset: 0xBC67, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInitC2Ev, symObjAddr: 0x19C, symBinAddr: 0xEDC, symSize: 0x30 }
+  - { offsetInCU: 0xBA8C, offset: 0xBCA2, size: 0x8, addend: 0x0, symName: __ZN19IOUSBUserClientInit9MetaClassD0Ev, symObjAddr: 0x1CC, symBinAddr: 0xF0C, symSize: 0xA }
+  - { offsetInCU: 0xBB0D, offset: 0xBD23, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_IOUSBUserClientInit.cpp, symObjAddr: 0x1D6, symBinAddr: 0xF16, symSize: 0x33 }
+  - { offsetInCU: 0xBB71, offset: 0xBD87, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x209, symBinAddr: 0xF49, symSize: 0x11 }
+...

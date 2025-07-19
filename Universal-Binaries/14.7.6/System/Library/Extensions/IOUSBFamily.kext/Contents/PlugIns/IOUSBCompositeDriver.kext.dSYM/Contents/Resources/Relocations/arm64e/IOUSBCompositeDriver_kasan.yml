@@ -1,0 +1,9 @@
+---
+triple:          'arm64e-apple-darwin'
+binary-path:     '/AppleInternal/Library/BuildRoots/c061c7d3-2106-11f0-aef6-66ed306edcf0/Library/Caches/com.apple.xbs/Binaries/IOUSBFamily_kexts/install/TempContent/Root/System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBCompositeDriver.kext/Contents/MacOS/IOUSBCompositeDriver_kasan'
+relocations:
+  - { offsetInCU: 0x37, offset: 0x37, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x0 }
+  - { offsetInCU: 0x1E3, offset: 0x1E3, size: 0x8, addend: 0x0, symName: __realmain, symObjAddr: 0x2F58, symBinAddr: 0x80C8, symSize: 0x0 }
+  - { offsetInCU: 0x1F8, offset: 0x1F8, size: 0x8, addend: 0x0, symName: __antimain, symObjAddr: 0x2F60, symBinAddr: 0x80D0, symSize: 0x0 }
+  - { offsetInCU: 0x20D, offset: 0x20D, size: 0x8, addend: 0x0, symName: __kext_apple_cc, symObjAddr: 0xC4, symBinAddr: 0x80C4, symSize: 0x0 }
+...
