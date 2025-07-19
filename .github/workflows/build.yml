@@ -16,12 +16,10 @@ jobs:
     runs-on: macos-14
     steps:
       - uses: actions/checkout@v4
-      - name: Clean, strip, and sign binaries
-        run: python3 ci.py
       - name: Tag folder
         run: touch Universal-Binaries/.signed
       - name: Build DMG
-        run: python3 Generate-DMG.command --sign
+        run: python3 Generate-DMG.command
       - name: Generate Checksums
         run: shasum -a 256 Universal-Binaries.dmg > sha256sum.txt
       - name: Upload Universal Binaries to Artifacts
