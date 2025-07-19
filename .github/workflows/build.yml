@@ -14,6 +14,8 @@ jobs:
   build_mojave:
     name: Zip and Upload Binaries
     runs-on: macos-14
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Tag folder
@@ -35,9 +37,21 @@ jobs:
       - run: |
           mkdir deploy
           mv *.dmg sha256sum.txt deploy/
+      - name: Create Pre-Release on Push
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        with:
+          files: deploy/*
+          tag_name: push-${{ github.sha }}
+          name: Tahoe Test
+          body: ${{ github.event.head_commit.message }}
+          prerelease: true
+          generate_release_notes: true
+          
       - name: Upload to Release
         if: github.event_name == 'release'
         uses: svenstaro/upload-release-action@1beeb572c19a9242f4361f4cee78f8e0d9aec5df
         with:
           file: deploy/*
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file_glob: true
