@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/AppleInternal/Library/BuildRoots/bad1ce41-1f88-11f0-be1f-0a5c80dde946/Library/Caches/com.apple.xbs/Binaries/IOUSBFamily_kexts/install/TempContent/Root/System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBUserClient.kext/Contents/MacOS/IOUSBUserClient_kasan'
+relocations:     []
+...
