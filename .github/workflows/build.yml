@@ -13,7 +13,7 @@ concurrency:
 jobs:
   build_mojave:
     name: Zip and Upload Binaries
-    runs-on: macos-14
+    runs-on: self-hosted
     permissions:
       contents: write
     steps:
